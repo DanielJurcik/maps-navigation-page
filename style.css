@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+
+#map{
+    width: 100vw;
+    height: 100vh;
+}
+
+.mapbox-directions-route-summary + .mapbox-directions-instructions{
+    overflow-x: hidden;
+}
+
+.mapbox-directions-instructions .mapbox-directions-instructions-wrapper{
+    max-height: 70vh;
+}
+
+
