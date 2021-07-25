@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <!-- Maps settings -->
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
     <title>Maps navigation site</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Map Directions -->
     <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
     <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
@@ -17,7 +19,20 @@
 </head>
 
 <body>
+    <div class="overlay"></div>
+    <header>
+        <div class="nav-bar">
+            <img class="nav-brand-logo" src="img/pointToPointLogo_low.png">
+        </div>
+    </header>
     <div id='map'></div>
+    <footer>
+        <div class="footer-container">
+            <a href="https://danieljurcik.com/">
+                <img class="footer-logo" src="img/logoJurcika_low.png">
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>
