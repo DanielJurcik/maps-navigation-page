@@ -21,6 +21,10 @@ body{
     max-height: 70vh;
 }
 
+.mapboxgl-ctrl-top-left{
+    z-index: 9999999;
+}
+
 .overlay{
     position: absolute;
     height: 100vh;
@@ -36,12 +40,13 @@ body{
 header{
     height: 60px;
     width: 100%;
-    position: fixed;
     z-index: 99999;
+    position: fixed;
     display: flex;
     justify-content: center;
     top: 0;
     .nav-bar{
+        z-index: 99999;
         background-color: rgba(255, 255, 255, 0.8);
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         padding: 8px;
@@ -71,6 +76,7 @@ footer{
     .footer-container{
         .footer-logo{
             height: 100%;
+            opacity: 0.3;
         }
     }
 }
